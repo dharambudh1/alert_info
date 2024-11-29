@@ -9,7 +9,7 @@ screenshots:
 topics:
   - snackbar
   - toast
-  - top message
+  - message
   - alert
 
 environment:
