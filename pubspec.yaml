@@ -1,11 +1,16 @@
 name: alert_info
-description: "Alert info is widget to display an animated message to user"
-version: 0.0.1
+description: "Alert info is flutter package to display an animated alert info, warning, succes or error message from the top or bottom"
+version: 0.0.2
 homepage: https://github.com/MoezAyadiDev/alert_info
 repository: https://github.com/MoezAyadiDev/alert_info
 screenshots:
   - description: "Screenshot for different type of alert info"
     path: example/assets/screenshots/alert_info_image.png
+topics:
+  - snackbar
+  - toast
+  - top message
+  - alert
 
 environment:
   sdk: ^3.5.4
