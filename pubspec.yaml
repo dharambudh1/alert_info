@@ -1,0 +1,23 @@
+name: alert_info
+description: "Alert info is widget to display an animated message to user"
+version: 0.0.1
+homepage: https://github.com/MoezAyadiDev/alert_info
+repository: https://github.com/MoezAyadiDev/alert_info
+screenshots:
+  - description: "Screenshot for different type of alert info"
+    path: example/assets/screenshots/alert_info_image.png
+
+environment:
+  sdk: ^3.5.4
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
