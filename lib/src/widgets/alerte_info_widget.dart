@@ -46,10 +46,10 @@ class _AlerteInfoWidgetState extends State<AlerteInfoWidget>
 
   Future<void> _playAnimation() async {
     try {
-      await _controller.forward().orCancel;
+      await _controller.forward();
       Future.delayed(Duration(seconds: widget.alerteHelper.duration)).then((_) {
         if (mounted && !_isDissmissed) {
-          _controller.reverse().orCancel;
+          _controller.reverse();
         }
       });
     } on TickerCanceled {
