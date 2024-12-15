@@ -1,5 +1,3 @@
-library AlertInfo;
-
 import 'package:alert_info/src/utils/alerte_helper.dart';
 import 'package:alert_info/src/widgets/alerte_info_widget.dart';
 import 'package:flutter/material.dart';
