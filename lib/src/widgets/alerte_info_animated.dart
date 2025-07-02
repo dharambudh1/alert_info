@@ -159,7 +159,7 @@ class AlerteInfoAnimated extends StatelessWidget {
                     boxShadow: [
                       BoxShadow(
                         color:
-                            alerteHelper.backgroundColor.withValues(alpha: 0.3),
+                            alerteHelper.backgroundColor.withOpacity(0.3),
                         blurRadius: 20.0,
                         offset: alerteHelper.isThemeDark
                             ? const Offset(0, 1)
