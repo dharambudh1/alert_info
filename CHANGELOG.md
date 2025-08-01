@@ -1,3 +1,7 @@
+## 0.0.4
+
+- Update: update dart sdk 3.8.1
+
 ## 0.0.3
 
 - Update: update dart sdk
