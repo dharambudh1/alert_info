@@ -20,7 +20,7 @@ class HolderWidget extends StatelessWidget {
         opacity: 1.0,
         child: ConstrainedBox(
           constraints: const BoxConstraints(
-            maxWidth: 400,
+            maxWidth: 400 - 16,
             minWidth: 100,
           ),
           key: globalKey,
